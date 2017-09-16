@@ -8,7 +8,7 @@ import { Component, OnInit } from '@angular/core';
 export class BhaashyaPariComponent implements OnInit {
 
   constructor() { }
-
+  public editorValue: string = '';
   ngOnInit() {
   }
 

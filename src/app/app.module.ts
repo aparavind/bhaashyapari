@@ -3,6 +3,8 @@ import { NgModule } from '@angular/core';
 
 import { AppComponent } from './app.component';
 import { BhaashyaPariComponent } from './bhaashya-pari/bhaashya-pari.component';
+import { CKEditorModule } from 'ngx-ckeditor';
+
 
 @NgModule({
   declarations: [
@@ -10,7 +12,8 @@ import { BhaashyaPariComponent } from './bhaashya-pari/bhaashya-pari.component';
     BhaashyaPariComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    CKEditorModule
   ],
   providers: [],
   bootstrap: [AppComponent]
